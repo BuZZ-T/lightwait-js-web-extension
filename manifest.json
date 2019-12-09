@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "lightwait-js-webextension",
+    "version": "1.0",
+  
+    "description": "A lightwait presenter as web extension.",
+    "homepage_url": "https://github.com/BuZZ-T/lightwait-js-webextension",
+  
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "lightwait@buzz-t.eu",
+            "strict_min_version": "50.0"
+        }
+    },
+
+    "browser_action": {
+        "default_icon": "icons/default.png",
+        "default_title": "lightwait"
+    },
+
+    "background": {
+        "scripts": ["lightwait-webextension.js"]
+    },
+
+    "permissions": [
+        "nativeMessaging"
+    ]
+  }
