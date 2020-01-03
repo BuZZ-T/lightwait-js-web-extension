@@ -4,7 +4,7 @@
     "version": "1.0",
   
     "description": "A lightwait presenter as web extension.",
-    "homepage_url": "https://github.com/BuZZ-T/lightwait-js-webextension",
+    "homepage_url": "https://github.com/BuZZ-T/lightwait-js-web-extension",
   
     "browser_specific_settings": {
         "gecko": {

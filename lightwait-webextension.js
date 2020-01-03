@@ -8,7 +8,11 @@ let useCanvas = false;
 console.log('connected...');
 
 port.onMessage.addListener(message => {
-    chrome.browserAction.setIcon({imageData: createIcon(convertColor(message))});
+    if (message.error) {
+        console.error('Error: ', message.error);
+    } else {
+        chrome.browserAction.setIcon({imageData: createIcon(convertColor(message))});
+    }
 })
 
 port.onDisconnect.addListener(port => {
