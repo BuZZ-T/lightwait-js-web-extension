@@ -1,7 +1,7 @@
 {
     "name": "lightwait",
     "description": "Native application for lightwait-webextension",
-    "path": "/home/bgebhard/iotlab/lightwait/lightwait-js-webextension.git/app/lightwait-native-application.js",
+    "path": "/path/to/lightwait-js-webextension.git/app/lightwait-native-application.js",
     "type": "stdio",
     "allowed_extensions": ["lightwait@buzz-t.eu"]
 }
